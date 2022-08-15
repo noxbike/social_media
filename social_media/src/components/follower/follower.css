@@ -1,0 +1,50 @@
+.follower{
+    text-align: left;
+}
+
+.follower .name-pseudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.follower p{
+    font-weight: 600;
+}
+
+.follower .name-pseudo p{
+    margin:0;
+    line-height: 10px;
+}
+
+.follower .liste-of-followers ul{
+ list-style: none;
+ padding: 0;
+}
+
+.follower .liste-of-followers ul li{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follower button{
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(0,124,240,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+.show-more{
+    text-align: center;
+}
+
+.show-more a{
+    text-decoration: none;
+    color: rgb(0, 124, 240);
+}

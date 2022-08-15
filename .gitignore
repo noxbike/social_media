@@ -1,5 +1,5 @@
 /social_media/node_modules
-
+/node_modules
 # production
 /social_media/build
 
